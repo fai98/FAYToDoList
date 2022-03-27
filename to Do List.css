@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+               
+               
+
+                
+h1{
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    margin: 45px;
+     }
+           
+.addList {
+    margin-right: 45ch;
+    margin-left: auto;
+    direction: rtl;
+    display: block;
+    width: 600px;
+    height: auto;
+     }
+
+* {
+     box-sizing: border-box;
+    }
+
+.contaner{
+    margin-right: 70px;
+    margin-bottom: 42px;             
+    }
+
+
+    p{
+                    
+    display: flex;
+    width: 600px;
+    height: 45px;
+    align-items: center;
+    direction: rtl;
+    position: relative;
+     }
+
+
+p h3{
+  
+    margin:0px;
+    width: 70%;
+    height: 40px;         
+    border-radius: 7px;
+    margin-left: 10px;
+    background-color: #eca5be;
+    padding: 8px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration:none;
+}
+
+.complet{
+
+    text-decoration: line-through;
+    color: white;
+    opacity: 0.9;
+
+}
+ p button{                   
+    height: 30px;
+    width: 74px;
+    margin-left: 10px;
+}
+
+
+button {
+    border: none;
+    color: black;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+ button:hover {
+    background-color: #555555;
+    color: white;
+    }
+
+
+.input{
+    width: 400px;
+    height: 33px;
+    font-family: 'Tajawal', sans-serif;
+    }
+
+.bg {
+    z-index: -1;
+    opacity: 0.3;
+    position: absolute;
+}
